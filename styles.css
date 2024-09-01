@@ -1,16 +1,14 @@
 
 * {
-    box-sizing: border-box;
-    width: 600px;
-    margin: auto;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     font-size: 60px;
     color: darkred;
     text-align: center;
-    margin: 20px;
-    padding-left: 40px;
+    margin: 20px auto;
 }
 
 .food-image {
@@ -34,6 +32,7 @@ a {
     border: 1px solid black;
     padding: 8px;
     color: darkred;
-    margin: 10px 0px;
+    margin: 10px auto;
+    width: 350px;
     display: block;
 }
