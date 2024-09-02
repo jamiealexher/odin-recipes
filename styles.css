@@ -2,6 +2,20 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c2a3d1;
+}
+
+.homepage-container {
+    width: 800px;
+    background-color: white;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5); 
 }
 
 h1 {
@@ -33,6 +47,6 @@ a {
     padding: 8px;
     color: darkred;
     margin: 10px auto;
-    width: 350px;
+    width: 300px;
     display: block;
 }
